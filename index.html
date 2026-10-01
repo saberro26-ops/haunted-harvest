@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haunted Harvest</title>
+    <link rel="stylesheet" href="haunted-harvest.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <h1>🎃 Haunted Harvest 👻</h1>
+    <p>A CSS-only Halloween adventure</p>
+
+    <nav aria-label="Halloween scenes">
+        <a href="#house">Haunted House</a>
+        <a href="#graveyard">Graveyard</a>
+        <a href="#festival">Pumpkin Festival</a>
+    </nav>
+</header>
+
+<main class="scenes">
+
+    <!-- SCENE 1 -->
+    <section id="house" class="scene">
+        <div class="moon" aria-hidden="true">🌕</div>
+        <div class="cloud cloud-one" aria-hidden="true">☁️</div>
+        <div class="cloud cloud-two" aria-hidden="true">☁️</div>
+
+        <h2>🏚️ The Haunted House</h2>
+        <p>The trick-or-treaters have reached the creepiest house in town.</p>
+
+        <div class="scene-area">
+            <div class="witch" aria-label="A witch flying on a broom">🧙‍♀️🧹</div>
+
+            <div class="house">
+                <div class="window">👻</div>
+                <div class="door">🚪</div>
+            </div>
+
+            <div class="people" aria-label="Trick-or-treaters">
+                🧛 🧙 🥷
+            </div>
+
+            <div class="cat" aria-label="Black cat">🐈‍⬛</div>
+
+            <div class="pumpkins" aria-label="Glowing jack-o-lanterns">
+                🎃 🎃 🎃
+            </div>
+
+            <div class="fog fog-one" aria-hidden="true"></div>
+            <div class="fog fog-two" aria-hidden="true"></div>
+        </div>
+
+        <a class="next-button" href="#graveyard">Enter the Graveyard →</a>
+    </section>
+
+
+    <!-- SCENE 2 -->
+    <section id="graveyard" class="scene">
+        <div class="moon" aria-hidden="true">🌕</div>
+
+        <h2>⚰️ The Haunted Graveyard</h2>
+        <p>Something is moving between the gravestones...</p>
+
+        <div class="scene-area graveyard-area">
+
+            <div class="bats" aria-label="Flying bats">
+                🦇 🦇 🦇
+            </div>
+
+            <div class="ghost ghost-one" aria-label="Floating ghost">👻</div>
+            <div class="ghost ghost-two" aria-label="Floating ghost">👻</div>
+
+            <div class="graves" aria-label="Old gravestones">
+                🪦 🪦 🪦 🪦
+            </div>
+
+            <div class="spider" aria-label="Spider">🕷️</div>
+
+            <div class="hearse" aria-label="Moving hearse">
+                🚙
+            </div>
+
+            <div class="fog fog-one" aria-hidden="true"></div>
+        </div>
+
+        <div class="scene-navigation">
+            <a class="next-button" href="#house">← Haunted House</a>
+            <a class="next-button" href="#festival">Pumpkin Festival →</a>
+        </div>
+    </section>
+
+
+    <!-- SCENE 3 -->
+    <section id="festival" class="scene">
+
+        <h2>🎃 Midnight Pumpkin Festival</h2>
+        <p>You escaped the graveyard and found the Halloween party!</p>
+
+        <div class="scene-area festival-area">
+
+            <div class="owl" aria-label="Owl">🦉</div>
+
+            <div class="party-guests" aria-label="Halloween party guests">
+                🧙‍♀️ 🧛‍♂️ 🧟‍♂️ 🧚
+            </div>
+
+            <div class="pumpkin-glow" aria-label="Glowing pumpkins">
+                🎃 🎃 🎃 🎃 🎃
+            </div>
+
+            <div class="candy" aria-label="Halloween candy">
+                🍬 🍭 🍫 🍬 🍭
+            </div>
+
+            <div class="wagon" aria-label="Moving hay wagon">
+                🚜
+            </div>
+
+            <div class="bats festival-bats" aria-label="Flying bats">
+                🦇 🦇
+            </div>
+        </div>
+
+        <div class="scene-navigation">
+            <a class="next-button" href="#graveyard">← Graveyard</a>
+            <a class="next-button" href="#house">Start Again ↻</a>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Haunted Harvest | HTML &amp; CSS Halloween Challenge</p>
+</footer>
+
+</body>
+</html>
